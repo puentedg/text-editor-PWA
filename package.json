@@ -1,7 +1,7 @@
 {
   "name": "jate",
   "version": "1.0.0",
-  "description": "",
+  "description": "text editor that runs in the browser",
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
@@ -25,5 +25,13 @@
   "devDependencies": {
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puentedg/text-editor-PWA.git"
+  },
+  "bugs": {
+    "url": "https://github.com/puentedg/text-editor-PWA/issues"
+  },
+  "homepage": "https://github.com/puentedg/text-editor-PWA#readme"
 }
